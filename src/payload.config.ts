@@ -8,6 +8,7 @@ import { buildConfig } from 'payload/config'
 
 import Categories from './collections/Categories'
 import { Media } from './collections/Media'
+import { Portfolio } from './collections/Portfolio'
 import Orders from './collections/Orders'
 import { Pages } from './collections/Pages'
 import Products from './collections/Products'
@@ -19,6 +20,7 @@ import { checkout } from './routes/checkout'
 import { invoiceCreatedOrUpdated } from './stripe/webhooks/invoiceCreatedOrUpdated'
 import { priceUpdated } from './stripe/webhooks/priceUpdated'
 import { productUpdated } from './stripe/webhooks/productUpdated'
+
 
 const generateTitle: GenerateTitle = () => {
   return 'My Store'
